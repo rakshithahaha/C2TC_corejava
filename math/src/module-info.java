@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Training {
+module math {
 }
