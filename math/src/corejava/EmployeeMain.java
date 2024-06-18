@@ -31,7 +31,7 @@ public class EmployeeMain {
 		 */
 
 		// calling of parameterized constructor
-		p1 eTwo = new p1(101, "Rakshitha", 60000.0, "Developer");
+		Employee eTwo =new Employee(111,"Rohith",50000.00,"Tester");
 		System.out.println(eTwo);
 	}
 

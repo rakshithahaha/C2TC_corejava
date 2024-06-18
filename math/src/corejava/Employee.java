@@ -1,6 +1,6 @@
 package corejava;
 //class
-public class p1 {
+public class Employee {
 	//data members
 	private int id;
 	private String name;
@@ -8,7 +8,8 @@ public class p1 {
 	private String designation;
 	
 	//parameterized constructor
-	public p1(int id, String name, double salary, String designation) {
+	
+	public Employee(int id, String name, double salary, String designation) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -16,11 +17,12 @@ public class p1 {
 		this.designation = designation;
 	}
 	
-	
+
 	//getters and setters 
 	public int getId() {
 		return id;
 	}
+	
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -44,7 +46,7 @@ public class p1 {
 	}
 	@Override
 	public String toString() {
-		return "p1 [id=" + id + ", name=" + name + ", salary=" + salary + ", designation=" + designation + "]";
+		return "Employee [id=" + id + ", name=" + name + ", salary=" + salary + ", designation=" + designation + "]";
 	}
 	
 	//toString()
